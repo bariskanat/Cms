@@ -1,0 +1,191 @@
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*mainwrapper*/
+#mainwrapper{
+    width: 1200px;
+    margin:10px auto;
+    border:1px solid #ccc;
+    box-shadow:0 0 8px #d0d0d0;
+}
+.entersite{
+    margin-top:30px;
+    margin-left:800px;
+width:300px;
+background:#f0f0f0;
+ border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding:5px;
+}
+.entersite input[type=text],.entersite input[type=password],#admincalisan  input[type=text],#admincalisan  input[type=password],#uploadalbumphto input[type=password],#uploadalbumphto input[type=text]{
+	display:block;
+  margin:5px;
+  width:280px;
+  height:25px;
+  
+}
+#adminalbum input[type=text]
+{
+  margin:5px;
+  width:280px;
+  height:25px;
+}
+
+.entersite input[type=submit],#admincalisan input[type=submit],#adminalbum input[type=submit],#uploadalbumphto input[type=submit]{
+width:90px;
+  padding:7px 10px;
+  border:none;
+  color:white;
+  margin-left:5px;
+  font-size:15px;
+  background:#348075;
+  text-shadow:0 1px #777;
+  text-transform:uppercase;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow:0 1px 0 white;
+  -moz-box-shadow:0 1px 0 white;
+  -webkit-box-shadow:0 1px 0 white;
+}
+.entersite input[type=submit]:hover,#admincalisan  input[type=submit]:hover,#adminalbum input[type=submit]:hover,#uploadalbumphto input[type=submit]:hover{
+    cursor:pointer;
+    background: #287368;
+}
+
+
+/*adminmenu*/
+#menu{
+    margin:10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu ul{
+    overflow:hidden;
+}
+
+#menu ul li{
+    
+    float:left;
+}
+
+#menu ul li a,#albuminfo div a{
+    display:block;
+    padding:10px;
+    margin-right: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu ul li a:hover,#albuminfo div a:hover{
+    text-decoration: underline;
+}
+#admincalisan{
+    padding-left:10px;
+padding-bottom: 10px;}
+#admincalisan h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding:5px;
+    
+}
+
+#admincalisan p{
+    padding:10px;
+    width: 300px;
+    border-bottom: 1px solid #ccc;
+}
+#admincalisan p span{
+    display:inline-block;
+    padding-right: 30px;
+}
+#admincalisan p span a{
+    text-decoration: none;
+}
+#admincalisan p span a:hover{
+    text-decoration: underline;
+}
+
+
+/*album section*/
+
+
+#albuminfo{
+    overflow:hidden;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#albuminfo div{
+    float:left;
+    width: 25%;
+}
+#albuminfo div a{
+    padding:0px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

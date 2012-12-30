@@ -1,0 +1,635 @@
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*mainwrapper*/
+#mainwrapper{
+    width: 1200px;
+    margin:10px auto;
+    border:1px solid #ccc;
+    box-shadow:0 0 8px #d0d0d0;
+}
+.entersite{
+    margin-top:30px;
+    margin-left:800px;
+width:300px;
+background:#f0f0f0;
+ border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding:5px;
+}
+.entersite input[type=text],.entersite input[type=password],#admincalisan  input[type=text],#admincalisan  input[type=password],#uploadalbumphto input[type=password],#uploadalbumphto input[type=text]{
+	display:block;
+  margin:5px;
+  width:280px;
+  height:25px;
+  
+}
+#adminalbum input[type=text]
+{
+  margin:5px;
+  width:280px;
+  height:25px;
+}
+
+.entersite input[type=submit],#sanatform input[type=submit],#newsedit a,#newsedit input[type=submit],#admincalisan input[type=submit],#haberadd input[type=submit],#adminalbum input[type=submit],#uploadalbumphto input[type=submit]{
+width:90px;
+  padding:7px 10px;
+  border:none;
+  color:white;
+  margin-left:5px;
+  font-size:15px;
+  background:#348075;
+  text-shadow:0 1px #777;
+  text-transform:uppercase;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  box-shadow:0 1px 0 white;
+  -moz-box-shadow:0 1px 0 white;
+  -webkit-box-shadow:0 1px 0 white;
+}
+.entersite input[type=submit]:hover,#sanatform input[type=submit]:hover,#newsedit input[type=submit]:hover,#newsedit a:hover,#admincalisan  input[type=submit]:hover,#adminalbum input[type=submit]:hover,#uploadalbumphto input[type=submit]:hover,#haberadd input[type=submit]:hover{
+    cursor:pointer;
+    background: #287368;
+}
+
+
+/*adminmenu*/
+#menu{
+    margin:10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu ul{
+    overflow:hidden;
+}
+
+#menu ul li{
+    
+    float:left;
+}
+
+#menu ul li a,#albuminfo div a{
+    display:block;
+    padding:10px;
+    margin-right: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu ul li a:hover,#albuminfo div a:hover{
+    text-decoration: underline;
+}
+#admincalisan{
+    padding-left:10px;
+padding-bottom: 10px;}
+#admincalisan h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding:5px;
+    
+}
+
+#admincalisan p{
+    padding:10px;
+    width: 300px;
+    border-bottom: 1px solid #ccc;
+}
+#admincalisan p span{
+    display:inline-block;
+    padding-right: 30px;
+}
+#admincalisan p span a{
+    text-decoration: none;
+}
+#admincalisan p span a:hover{
+    text-decoration: underline;
+}
+
+
+/*album section*/
+
+
+#albuminfo{
+    overflow:hidden;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#albuminfo div{
+    float:left;
+    width: 25%;
+}
+#albuminfo div a{
+    padding:0px;
+    font-size: 14px;
+}
+
+
+
+#albumphoto{
+    overflow: hidden;
+    padding-left:15px;
+    margin-top:20px;
+    
+}
+#albumphoto div{
+    float:left;
+    margin:5px;
+     border:1px solid #d0d0d0;
+    box-shadow:0 0 8px #d0d0d0;
+    -moz-box-shadow:0 0 8px #d0d0d0;
+    -webkit-box-shadow:0 0 8px #d0d0d0;
+    width: 278px;
+    text-align: center;
+}
+#albumphoto img{
+  
+    width: 270px;
+    padding:3px;
+    margin:0;
+    
+   
+    
+}
+#albumphoto div a{
+    color:black;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left:3px;
+    text-decoration: none;
+}
+#albumphoto div a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*haber section */
+
+
+#haberadd{
+    
+    
+    width: 500px;
+    margin-left: 20px;
+}
+#haberadd input[type=text],#haberadd textarea{
+    width: 450px;
+    margin-bottom:10px;
+    
+}
+#haberadd input[type=text]{
+    height:25px;
+}
+#haberadd textarea{
+    height:400px;
+}
+
+
+
+#haberlist{
+    overflow:hidden;
+    margin:20px 40px;
+}
+#haberlist div{
+    float:left;
+    margin:5px;
+    width:250px;
+    box-shadow: 0 0 8px  #d0d0d0;
+    -moz-box-shadow: 0 0 8px #d0d0d0;
+    -webkit-box-shadow: 0 0 8px  #d0d0d0;
+    border:1px solid #ccc;
+}
+#haberlist div img{
+    width: 250px;
+}
+#haberlist div h1{
+    font-size: 14px;
+    padding: 7px;
+    height:30px;
+    overflow:hidden;
+}
+#haberlist div p{
+    padding:7px;
+    height:100px;
+    overflow:hidden;
+}
+
+
+
+
+#newsedit{
+    margin:20px;
+}
+#newsedit img{
+    max-width: 600px;
+}
+#newsedit input[type=text],#newsedit textArea{
+    width: 600px;
+}
+#newsedit input[type=text]{
+    height:20px;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+#newsedit input[type=submit]{margin:20px 0px;}
+#newsedit textArea{
+    height: 500px;
+    
+}
+
+
+
+/*admin sanat sectionnnn*/
+
+
+#sanatform{
+    width: 600px;
+    margin:20px;
+}
+
+#sanatform input[type=text],#sanatform textArea{
+    width: 600px;
+    margin:10px 0;
+}
+#sanatform input[type=text]{
+    height: 25px;
+    
+}
+#sanatform textArea{
+    height:500px;
+}
+
+
+
+/*sanatlist section  */
+
+
+#sanatlist{
+    overflow:hidden;
+    margin-left: 20px;
+    
+}
+
+#sanatlist div,#info div#saninfo >div.sanatpic{
+      width: 270px;
+      box-shadow: 1px 2px 3px 1px black;
+     -moz-box-shadow: 1px 2px 3px 1px black;
+    -webkit-box-shadow: 1px 2px 3px 1px black;
+    margin:5px;
+    border:1px solid #ccc;
+    position: relative;
+    padding:5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+#sanatlist div{
+    float:left;
+  
+    
+}
+#sanatlist div img,#info div img{
+    width:270px;
+    margin:0;
+    padding:0;
+}
+#sanatlist div p,#info div p{
+    
+    overflow: hidden;
+    background-image: url("public/images/tool.png");
+    background-color: rgba(14, 98, 140, 0.75);
+    position: absolute;
+    left:5px;
+    bottom:6px;
+    padding:10px 0;
+    width: 270px;
+    color:white;
+    text-transform: uppercase;
+    text-indent: 4px;
+    
+}
+
+#sanatci{
+    overflow:hidden;
+}
+#info div#saninfo,#detay{
+    float:left;
+}
+#info div#saninfo{
+    width: 270px;
+    margin-right: 20px;
+}
+#detay{
+    width: 800px;
+    border:1px solid #ccc;
+    
+}
+
+#sanmenu ul li{
+    display: block;
+background-color: #014464;
+background-color: rgba(14, 98, 140, 0.75);
+
+text-decoration: none;
+text-transform: uppercase;
+box-shadow: 1px 1px 1px 1px #212121;
+-moz-box-shadow: 1px 1px 1px 1px #212121;
+-webkit-box-shadow: 1px 1px 1px 1px #212121;
+border-radius: 2px;
+-moz-norder-radius: 2px;
+-webkit-border-radius: 2px;
+padding:0;
+width: 220px;
+margin:10px;
+text-shadow: 0 1px 0 black;
+}
+#sanmenu ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    width: 200px;
+}
+
+
+
+/*video  section*/
+
+#youtubevideo{
+    overflow:hidden;
+    margin-left:10px;
+}
+#youtubevideo div{
+    position:relative;
+    float:left;
+    margin:5px;
+    box-shadow: 1px 1px 1px 1px #212121;
+-moz-box-shadow: 1px 1px 1px 1px #212121;
+-webkit-box-shadow: 1px 1px 1px 1px #212121;
+width: 240px;
+height: 260px;
+overflow:hidden;
+}
+#youtubevideo div img{
+    width: 240px;
+}
+#youtubevideo div p{
+    padding:5px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+#youtubevideo div span#videoplay
+{
+ display: block;
+ position: absolute;
+ top:80px;
+ left:105px;
+ background-image: url("../images/play.png");
+ width: 38px;
+ height:38px;
+ 
+    
+}
+#videoplay:hover{
+    cursor:pointer;
+}
+
+.overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background: #000;    
+    z-index: 9999;
+}
+#videoplayer{
+    position: absolute;
+     z-index: 99999;
+    width: 640px;
+    height:360px;
+    box-shadow: 1px 1px 1px 1px #212121;
+-moz-box-shadow: 1px 1px 1px 1px #212121;
+-webkit-box-shadow: 1px 1px 1px 1px #212121;
+}
+
+#sanatphotosection{
+/*    overflow:hidden;*/
+    width: 800px;
+    float:left;
+    min-height: 800px;
+}
+#sanatimage{
+    width: 230px;
+    margin:5px;
+    border:1px solid #ccc;
+    
+    
+}
+#sanatphotosection img{
+    width: 230px;
+/*   margin:5px;
+    */
+}
+
+
+
+/*yayinlar section*/
+
+#playlist{
+    margin: 20px;
+    width: 900px;
+}
+.yayinlar{
+    overflow:hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.yayinlar div{
+    float:left;
+    width: 33%;
+}
+
+
+
+/*employee section   */
+
+#calisanlar{
+    overflow: hidden;
+}
+#calisanlar a{
+    display: block;
+    text-decoration: none;
+    color:#111;
+}
+
+#calisanlar div{
+    float:left;
+    padding:4px;
+      box-shadow: 1px 1px 1px 1px #212121;
+-moz-box-shadow: 1px 1px 1px 1px #212121;
+-webkit-box-shadow: 1px 1px 1px 1px #212121;
+margin:5px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+width: 280px;
+}
+#calisanlar div img{
+    width: 280px;
+}
+
+
+#empedit a{
+    display:block;
+width: 90px;
+padding: 7px 10px;
+border: none;
+color: white;
+margin-left: 5px;
+font-size: 15px;
+background: #348075;
+text-shadow: 0 1px #777;
+text-transform: uppercase;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+box-shadow: 0 1px 0 white;
+-moz-box-shadow: 0 1px 0 white;
+-webkit-box-shadow: 0 1px 0 white;}
+
+
+#list{
+    
+    
+}
+#list > div{
+    overflow: hidden;
+    padding:5px;
+    border-bottom:1px solid #ccc;
+}
+
+
+#topimage,#topinfo{
+    float:left;
+}
+#topimage{
+    width: 280px;
+    margin-right: 8px;
+    overflow:hidden;
+    
+}
+#topimage img,#topimage span{
+    float:left;
+}
+#topimage img{
+    width: 50px;
+    margin:0 5px;
+}
+#topinfo{
+    width: 800px;
+    overflow:hidden;
+}
+#topinfo p{
+    float:left;
+    width: 360px;
+    margin-right: 15px;
+}
+
+#topinfo p a{
+    text-decoration: none;
+}
+
+
+/*reklamlar sectionn*/
+
+
+#reklamalan{
+    overflow:hidden;
+    margin-top:15px;
+    
+}
+
+#reklamalan div{
+    float:left;
+    margin:5px;
+    width: 298px;
+    border:1px solid #dcdcdc;
+    box-shadow: 0 0 5px #555555;
+    
+}
+
+#reklamalan div img{
+    width: 290px;
+    padding:4px;
+}
+
+
+
+
+
+
+
+
+
