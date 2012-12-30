@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
 $(function(){
-   // alert("calisiyor");
+   
     $('#cropbox').Jcrop({
         aspectRatio: 1.5,
         bgOpacity:   .4,

@@ -8,14 +8,9 @@
 
  ?>
 <div id="reklamlarinfo">
-    <h1>Reklam Bir Yatirimdir; Yatirim Her Zaman Kazanctir.</h1>
-    <p> 
+    
 
-Radyomuzda bugune kadar yayinlanmis ve halen yayinlanmakta olan sesli reklamlari buradan dinleyebilir, ve reklami yapilan kuruluslarin adres ve telefon numaralarina alfabetik siraya gore ulasabilirsiniz.
 
-<br/>Tanitimlariniz icin tek adres: RADIO PERFECT !<span>
-
-1.416.837.6781 </span> ya da  <a href="mailto:info@radioperfect.net">Email Us</a></p>
     
 </div>
 <div id="reklamlar">    
